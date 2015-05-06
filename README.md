@@ -11,7 +11,7 @@ docker run -d --name=geodns -p 53:53/udp -v /dns:/dns maclof/geodns:latest
 
 You should put the JSON zone files inside /dns, for example (/dns/maclof.com.json):
 
-```json
+```javascript
 {
 	"data": {
 		"": {
